@@ -1,7 +1,8 @@
-amazon_cart = ['notebooks', 'sunglasses', 'toys', 'grapes']
+#Matrix
+matrix = [
+    [1, 2, 3],
+    [2, 4, 6],
+    [7, 8, 9]
+]
 
-new_cart = amazon_cart[:]
-new_cart[0] = 'test'
-
-print(amazon_cart)
-print(new_cart)
+print(matrix[0][1])
