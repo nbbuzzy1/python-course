@@ -1,5 +1,17 @@
-#List unpacking
+#Dictionary
 
-a, b, c, *other, d = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(a, b, c, d)
-print(*other)
+dictionary = {
+    'a': 1,
+    'b': 2
+}
+
+print(dictionary['b'])
+
+# Keys
+
+dictionary = {
+    123: [1, 2, 3],
+    True: 'hello'
+}
+
+print(dictionary)
