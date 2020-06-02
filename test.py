@@ -1,8 +1,5 @@
-#List methods
+#List unpacking
 
-basket = [1, 2, 3, 4, 5]
-
-modified_basket = basket[::-1]
-print(basket)
-
-print(list(range(1, 100)))
+a, b, c, *other, d = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(a, b, c, d)
+print(*other)
