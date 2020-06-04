@@ -1,4 +1,4 @@
-#conditional logic
+#ternary operator
 is_old = False
 is_licensed = True
 
