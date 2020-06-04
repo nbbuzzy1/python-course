@@ -1,12 +1,9 @@
-#ternary operator
-is_old = False
-is_licensed = True
+is_magician = True
+is_expert = False
 
-if is_old and is_licensed:
-    print('you are old enough to drive')
-elif is_licensed:
-    print('how did you get your license??')
+if is_magician and is_expert:
+    print('you are a master magician')
+elif is_magician and not is_expert:
+    print('at least you are getting there')
 else:
-    print('you are not old enough to drive')
-
-print('check check')
+    print('You need magic powers')
