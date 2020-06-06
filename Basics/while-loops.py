@@ -22,7 +22,3 @@ while True:
 
 for item in my_list:
     pass
-
-for item in my_list:
-    continue
-    print('hi')
