@@ -9,7 +9,7 @@ class Cat:
 
 # 1 Instantiate the Cat object with 3 cats
 
-cat1 = Cat('Summer', 13)
+cat1 = Cat('Summer', 133)
 cat2 = Cat('Thome', 20)
 cat3 = Cat('Reagan', 4)
 
