@@ -1,5 +1,6 @@
-def is_even(num):
-    return num % 2 == 0
+with open('test.txt', 'w') as my_file:
+    text = my_file.write('hey it is me!')
+    print(text)
 
-
-print(is_even(4))
+with open('Exercises\\authenticated.py') as my_file2:
+    print(my_file2)
