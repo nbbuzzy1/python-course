@@ -1,5 +1,5 @@
 {
   "python.pythonPath": "C:\\Users\\nickb\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
-  "python.linting.enabled": true
-  //   "python.autoComplete.extraPaths": ["./path-to-your-code"]
+  "python.linting.enabled": true,
+  "python.autoComplete.extraPaths": ["./Advanced", "./Testing"]
 }
